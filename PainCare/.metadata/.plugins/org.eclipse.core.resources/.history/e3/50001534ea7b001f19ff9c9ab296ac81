@@ -1,0 +1,12 @@
+package learning;
+
+public class Chef extends salarier {
+
+	public Chef(String nom) {
+		super(nom);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

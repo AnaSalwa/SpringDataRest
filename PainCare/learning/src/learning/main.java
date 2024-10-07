@@ -1,0 +1,56 @@
+package learning;
+
+import java.util.ArrayList;
+
+public class main {
+
+	public static void main(String[] args) {
+
+//		employee employee = new employee() ; 
+//		
+//		employee.setNom("KHALED");
+//		employee.setSalaire(20000);
+//		
+//		System.out.println(employee.getNom());
+//		System.out.println(employee.getSalaire());
+//		System.out.println(employee.getClass());
+		
+//		Chien chien = new Chien();
+//		Animal chien2 = new Chien();
+//		ArrayList<Animal>  animaux= new ArrayList<>();
+//		animaux.add(new Chien());
+//		animaux.add(new Chat());
+//		animaux.add(new Chien());
+//		animaux.add(new Animal());
+//		
+//		for (Animal animal:animaux) {
+//			animal.marcher();
+//		}
+		
+		
+		Directeur directeur  = new Directeur ("Ali");
+		Ouvrier ouvrier = new Ouvrier ("Mehdi"); 
+		Chef chef = new Chef("Ahmed");
+
+		ArrayList<salarier> salariers = new ArrayList<>(); 
+		salariers.add(chef);
+		salariers.add(directeur);
+		salariers.add(ouvrier);
+		
+		
+		for (salarier salarier:salariers) {
+			salarier.getNom();
+			salarier.getSalaire();
+			salarier.toString();
+			salarier.afficherSalaire();
+		}
+		
+		
+		
+	
+		
+		
+		
+	}
+
+}

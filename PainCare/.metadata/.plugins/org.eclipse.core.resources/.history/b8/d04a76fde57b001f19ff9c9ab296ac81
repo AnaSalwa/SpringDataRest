@@ -1,0 +1,20 @@
+package learning;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		employee employee = new employee() ; 
+		
+		employee.setNom("KHALED");
+		employee.setSalaire(20000);
+		
+		System.out.println(employee.getNom());
+		System.out.println(employee.getSalaire());
+		System.out.println(employee.getClass());
+		
+		
+		
+	}
+
+}

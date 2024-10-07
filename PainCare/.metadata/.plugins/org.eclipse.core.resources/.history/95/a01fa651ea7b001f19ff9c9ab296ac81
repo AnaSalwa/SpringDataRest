@@ -1,0 +1,11 @@
+package learning;
+
+public class Ouvrier extends salarier{
+
+	
+	public Ouvrier(String nom) {
+		super(nom);
+		// TODO Auto-generated constructor stub
+	}
+	
+}
