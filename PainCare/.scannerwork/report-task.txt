@@ -1,0 +1,6 @@
+projectKey=PainCare
+serverUrl=http://localhost:9001
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9001/dashboard?id=PainCare
+ceTaskId=948dacae-efdf-45b7-b9c1-98e5fa7e0581
+ceTaskUrl=http://localhost:9001/api/ce/task?id=948dacae-efdf-45b7-b9c1-98e5fa7e0581
