@@ -13,11 +13,6 @@
   <display-name>PainCare</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
     <description></description>
@@ -71,14 +66,11 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>CommunityServlet</display-name>
-    <servlet-name>CommunityServlet</servlet-name>
+    <display-name>CommunityServle</display-name>
+    <servlet-name>CommunityServle</servlet-name>
     <servlet-class>com.JAVA.DAO.CommunityServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
-    <servlet-name>CommunityServlet</servlet-name>
-    <url-pattern>/CommunityServlet</url-pattern>
-  </servlet-mapping>
+ 
   <servlet>
     <description></description>
     <display-name>PubServlet</display-name>
@@ -119,16 +111,12 @@
     <servlet-name>CommunityServlet3</servlet-name>
     <url-pattern>/CommunityServlet3</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>CommunityServle</display-name>
-    <servlet-name>CommunityServle</servlet-name>
-    <servlet-class>Community.CommunityServle</servlet-class>
-  </servlet>
+ 
   <servlet-mapping>
     <servlet-name>CommunityServle</servlet-name>
     <url-pattern>/CommunityServle</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <description></description>
     <display-name>servlet</display-name>

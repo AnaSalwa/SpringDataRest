@@ -24,7 +24,8 @@ import org.apache.tomcat.jakartaee.commons.compress.utils.IOUtils;
 
 
 
-@WebServlet("/CommunityServle")
+//@WebServlet("/CommunityServle")
+
 @MultipartConfig(fileSizeThreshold = 1024 * 1024 * 2,   // 2 MB
         maxFileSize = 1024 * 1024 * 10,         // 10 MB
         maxRequestSize = 1024 * 1024 * 50)      // 50 MB

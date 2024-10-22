@@ -8,7 +8,8 @@
 </head>
 <body>
 
-    <h2>Ajouter une Communauté</h2>
+
+    <h2>Ajouter une Communauté updated</h2>
 
     <form method="post" action="servlet" enctype="multipart/form-data">
         <label for="title">Titre :</label>
