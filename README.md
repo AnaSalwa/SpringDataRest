@@ -47,7 +47,6 @@ Avant de construire l'image Docker, assurez-vous que le projet est compilé en e
 mvn clean package -DskipTests
 ```
 
-⚠️ **Remarque** : Les tests sont ignorés ici à l'aide du drapeau `-DskipTests` pour accélérer le processus de construction. Vous pouvez supprimer ce drapeau si vous souhaitez exécuter les tests.
 
 ### 4. Construire l'image Docker
 
