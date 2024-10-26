@@ -124,18 +124,10 @@ Les identifiants de connexion par défaut pour Grafana sont :
 Naviguez vers **Configuration → Sources de données**.
 
 Cliquez sur **Ajouter une source de données**, sélectionnez **Prometheus**, et définissez l'URL sur `http://prometheus:9090`.
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/415f0ed0-9535-4428-9ec7-bf6450db52e4">
 
-#### Importer un tableau de bord
 
-Naviguez vers **Créer → Importer**.
 
-Vous pouvez utiliser un tableau de bord pré-construit depuis Grafana ou créer un tableau de bord personnalisé pour les métriques Spring Boot.
-
-Pour un tableau de bord plus sophistiqué, vous pouvez télécharger un modèle JSON depuis **Actuator JSON Dashboard** et l'importer dans Grafana :
-
-Naviguez vers **Créer → Importer**.
-
-Téléchargez le fichier JSON et associez-le à votre source de données Prometheus.
 
 
 
