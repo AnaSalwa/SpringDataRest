@@ -15,7 +15,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @NoArgsConstructor
 
-
+@Table(name = "PROPRIETAIRE")
 public class Proprietaire {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "proprietaire_seq")
